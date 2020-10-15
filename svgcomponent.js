@@ -18,7 +18,7 @@ export default React.memo(function SvgComponent() {
       <SvgUri
         width={22}
         height={22}
-        uri={"https://images.travelxp.com/images/txpin/vector/airlines/sg.svg"}
+        uri={"https://images.travelxp.com/images/txpin/vector/airlines/sg.svgg"}
         onError={handleError}
       />
     </View>
