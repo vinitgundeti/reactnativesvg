@@ -10,7 +10,12 @@ export default React.memo(function SvgComponent() {
 
   if (hasError) {
     return (
-      <Text>Error</Text>
+      <SvgUri
+        width={22}
+        height={22}
+        uri={"https://images.travelxp.com/images/txpin/vector/airlines/6e.svg"}
+        onError={handleError}
+      />
     );
   }
   return (
